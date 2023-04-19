@@ -240,7 +240,7 @@ class MyHomePageState extends State<MyHomePage> {
                 ),
                 Row(
                   children: <Widget>[
-                    Text('Value: ${widget.readValues[characteristic.uuid]}'),
+                    Text('Valor: ${widget.readValues[characteristic.uuid]}'),
                   ],
                 ),
                 const Divider(),
